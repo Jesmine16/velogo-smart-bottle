@@ -122,7 +122,7 @@ export default function Dashboard() {
                 <Text style={styles.logAmount}>+{it.amount} ml</Text>
                 <Text style={styles.logTime}>{it.time}</Text>
               </View>
-              <Text style={styles.logBottle}>VeloGo Pro</Text>
+              <Text style={styles.logBottle}>VeloGo Muse</Text>
             </View>
           ))}
         </Card>
