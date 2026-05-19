@@ -17,7 +17,7 @@ export default function Welcome() {
           colors={["#E5F0FF", "#F9FAFB"]}
           style={StyleSheet.absoluteFill}
         />
-        <Image source={{ uri: BOTTLE_HERO }} style={styles.heroImg} resizeMode="contain" />
+        <Image source={BOTTLE_HERO} style={styles.heroImg} resizeMode="contain" />
       </View>
       <SafeAreaView edges={["bottom"]} style={styles.bottom}>
         <View style={styles.badge}>
