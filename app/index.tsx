@@ -6,7 +6,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import PrimaryButton from "../src/components/PrimaryButton";
 import { colors } from "../src/theme";
 
-const BOTTLE_HERO = "https://static.prod-images.emergentagent.com/jobs/8f393651-c989-4a33-9a25-619c6df79151/images/6255cac04bbe18daebe28c45c9c9cf433382ff6e9939c840260111255523c3f8.png";
+const BOTTLE_HERO = require("../assets/images/1a1.jpeg");
 
 export default function Welcome() {
   const router = useRouter();
