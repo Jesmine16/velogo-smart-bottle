@@ -8,6 +8,7 @@ import Card from "../../src/components/Card";
 import CircularProgress from "../../src/components/CircularProgress";
 import { colors, radii } from "../../src/theme";
 import { mockUser, mockBottles, mockHydration, mockWaterQuality } from "../../src/mockData";
+import bottleImage from "../../assets/images/2b2.png";
 
 export default function Dashboard() {
   const router = useRouter();
@@ -69,7 +70,7 @@ export default function Dashboard() {
               </View>
             </View>
           </View>
-          <Image source={{ uri: "https://static.prod-images.emergentagent.com/jobs/8f393651-c989-4a33-9a25-619c6df79151/images/6255cac04bbe18daebe28c45c9c9cf433382ff6e9939c840260111255523c3f8.png" }} style={styles.bottleThumb} resizeMode="contain" />
+          <Image source={bottleImage} style={styles.bottleThumb} resizeMode="contain" />
         </Card>
 
         {/* Metric grid */}
